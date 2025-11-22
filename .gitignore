@@ -25,3 +25,8 @@ _Documentation/**/.~lock.*
 
 # Script
 !*/Script/**
+
+# Binary
+!*/Binaries/**
+# Reignore pdb
+*.pdb
