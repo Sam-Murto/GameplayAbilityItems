@@ -5,6 +5,7 @@
 
 # base files
 !*.uproject
+!*.uplugin
 !.gitignore
 
 # _Documentation, whitelist everything
@@ -13,20 +14,20 @@
 _Documentation/**/.~lock.*
 
 # Config
-!*/Config/**
+!**/Config/**
 
 # Content
-!*/Content/**
+!**/Content/**
 # Content Built data for maps
 *_BuiltData.uasset
 
 # Source
-!*/Source/**
+!**/Source/**
 
 # Script
-!*/Script/**
+!**/Script/**
 
 # Binary
-!*/Binaries/**
+!**/Binaries/**
 # Reignore pdb
 *.pdb

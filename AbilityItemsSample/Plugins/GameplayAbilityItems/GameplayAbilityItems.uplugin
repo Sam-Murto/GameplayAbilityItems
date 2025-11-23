@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GameplayAbilityItems",
+	"Description": "Extends the GameplayAbilities plugin to provide boilerplate for an item system.",
+	"Category": "GameplayAbilities",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GameplayAbilityItems",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Sealed": true,
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}
